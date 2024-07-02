@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Deal Discount & Promos</title>
+  <link rel="icon" href="./images/brand/favicon.svg" />
+  <!-- phosphor icons -->
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/regular/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/thin/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/light/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/bold/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/fill/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/duotone/style.css">
+  <!-- styling css -->
+  <link rel="stylesheet" href="./plugins/bootstrap-5.3.3/bootstrap.min.css" />
+  <link rel="stylesheet" href="./plugins/swiper-11.1.4/swiper.min.css" />
+  <link rel="stylesheet" href="./plugins/aos-2.0.0/aos.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!--============================
+  =            header            =
+  =============================-->
+  <header>
+    <div class="container-xl">
+      <div class="header_main d-flex align-items-sm-center justify-content-between flex-row gap-md-4 gap-3">
+        <a href="index.html" class="logo">
+          <img src="./images/brand/logo.svg" alt="Logo" />
+        </a>
+        <div class="menu_offcanvas" data-bs-backdrop="static" id="menu">
+          <div class="offcanvas-header d-lg-none">
+            <a href="index.html" class="logo">
+              <img src="./images/brand/logo.svg" alt="Logo" />
+            </a>
+          </div>
+          <div class="offcanvas-body flex-lg-row align-items-lg-center justify-content-lg-between">
+            <ul class="navbar-nav flex-lg-row">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="stores.html">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <div class="nav-item social_links d-lg-none d-flex align-items-center gap-3 mt-auto mb-2">
+              <a href="#" class="nav-link">
+                <i class="ph ph-facebook-logo"></i>
+              </a>
+              <a href="#" class="nav-link">
+                <i class="ph ph-instagram-logo"></i>
+              </a>
+              <a href="#" class="nav-link">
+                <i class="ph ph-threads-logo"></i>
+              </a>
+              <a href="#" class="nav-link">
+                <i class="ph ph-x-logo"></i>
+              </a>
+              <a href="#" class="nav-link">
+                <i class="ph ph-linkedin-logo"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header_last_block d-flex align-items-center gap-2">
+          <div class="nav-item search_bar d-flex gap-2">
+            <div class="form-group">
+              <input class="form-control" type="text" placeholder="Search Stores...">
+            </div>
+            <a href="#" class="btn d-lg-flex d-none btn-secondary">
+              <i class="ph ph-magnifying-glass"></i>
+              <span>Search</span>
+            </a>
+          </div>
+          <button class="btn menu_btn d-flex d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--====  End of header  ====-->
+  <!--==========================
+  =            Main            =
+  ===========================-->
+  <main>
+    <section class="contact-section">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <hgroup class="heading_parent">
+              <h4 class="heading">Get in <span>Touch</span></h4>
+              <p class="heading_desc">Reach out to us for any queries or assistance. We're here to help you.</p>
+            </hgroup>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </form>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact-info">
+              <h4>Get in Touch</h4>
+              <p><i class="ph ph-map-pin"></i> 1234 Street Name, City, State, 12345</p>
+              <p><i class="ph ph-phone"></i> (123) 456-7890</p>
+              <p><i class="ph ph-envelope-simple-open"></i> email@example.com</p>
+              <p><i class="ph ph-globe-hemisphere-east"></i> www.example.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--====  End of Main  ====-->
+  <!--============================
+  =            Footer            =
+  =============================-->
+  <footer>
+    <div class="container-xl mb-5">
+      <div class="row gy-5">
+        <div class="col-lg-4">
+          <div class="logo mb-3">
+            <img src="images/brand/logo.svg" alt="">
+          </div>
+          <p class="footer_disclaimer text-light mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="social_icons">
+            <div class="icon facebook">
+              <figure>
+                <img src="images/socials/facebook.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon twitter">
+              <i class="fa fa-twitter"></i>
+              <figure>
+                <img src="images/socials/twitter.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon instagram">
+              <i class="fa fa-instagram"></i>
+              <figure>
+                <img src="images/socials/instagram.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon google_plus">
+              <i class="fa fa-google-plus"></i>
+              <figure>
+                <img src="images/socials/google_plus.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon linkedin">
+              <i class="fa fa-linkedin"></i>
+              <figure>
+                <img src="images/socials/linkedin.svg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-2 text-white">
+          <div class="row gy-4">
+            <div class="col-sm-4">
+              <h5 class="footer_heading mb-4">Quick links</h5>
+              <ul class="footer_list p-0">
+                <li class="mt-2 list-unstyled"><a href="#">Home</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">About</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">Store</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">Categories</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <h5 class="footer_heading mb-4">Stores</h5>
+              <ul class="footer_list p-0">
+                <li class="mt-2 list-unstyled"><a href="#">Amazon</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">eBay</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">Walmart</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">Best Buy</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">Target</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <h5 class="footer_heading mb-4">Categories</h5>
+              <ul class="footer_list p-0">
+                <li class="mt-2 list-unstyled"><a href="#">Electronics</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">Fashion</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">Home & Garden</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">Health & Beauty</a></li>
+                <li class="mt-2 list-unstyled"><a href="#">Sports & Outdoors</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom_footer py-3">
+      <div class="container-xl">
+        <div class="row gy-2 text-md-start text-center">
+          <div class="col-md-6">
+            <p class="text-light">&copy; 2024 Hayyan Ali. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 d-flex justify-content-md-end justify-content-center align-items-center">
+            <div class="d-flex align-items-center gap-2">
+              <a href="#" class="text-light small border-end pe-2 border-secondary">Terms & condition</a>
+              <a href="#" class="text-light small">Privicy policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--====  End of Footer  ====-->
+  <!-- js files -->
+  <script type="text/javascript" src="./plugins/swiper-11.1.4/swiper.min.js"></script>
+  <script type="text/javascript" src="./plugins/bootstrap-5.3.3/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./plugins/aos-2.0.0/aos.js"></script>
+  <script type="text/javascript" src="./plugins/jquery-3.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./plugins/lordicons/lordicons.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+  <script>
+  AOS.init({
+    once: true,
+    offset: 150,
+    duration: 1000,
+  });
+  </script>
+</body>
+
+</html>
